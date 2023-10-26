@@ -31,6 +31,21 @@ h2 {
 	font-size: 2.2rem;
 }
 
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: $fw-medium;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+h4 {
+	color: $color-highlight;
+	padding: 0;
+	margin-bottom: 1.2rem;
+	font-size: 1rem;
+}
+
 header {
 	background-image: linear-gradient(rgba($color-dark, 0.7), rgba($color-dark, 0.7)), url('../img/banner.webp');
 	background-position: center;
@@ -45,3 +60,4 @@ header {
 	align-items: center;
 	margin-top: 7.46rem;
 }
+

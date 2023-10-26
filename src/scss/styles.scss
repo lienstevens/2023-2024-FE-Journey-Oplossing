@@ -1,8 +1,11 @@
 /*---------------------------------------/*
  # SETTINGS
 /*---------------------------------------*/
-@import 'bootstrap/scss/bootstrap';
 @import 'settings';
+/*---------------------------------------/*
+ # TOOLS
+/*---------------------------------------*/
+@import 'tools';
 /*---------------------------------------/*
  # GENERIC - BOOTSTRAP
 /*---------------------------------------*/
@@ -21,6 +24,11 @@
 @import 'components.nav';
 @import 'components.logo';
 @import 'components.btn';
+@import 'components.places';
+@import 'components.tabs';
+@import 'components.destinations';
+@import 'components.photos';
+@import 'components.contact';
 /*---------------------------------------/*
  # UTILITIES
 /*---------------------------------------*/
